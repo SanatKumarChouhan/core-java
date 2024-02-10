@@ -1,0 +1,22 @@
+package in.co.rays.inheritance;
+
+public class Dog extends Animal {
+	
+	public static void main(String[] args) {
+		
+	
+	
+	
+	//Dog d=new Dog();
+	
+	//d.run();
+	
+		Animal a=new Animal();
+				
+				a.run();
+		
+		
+	}
+	
+
+}
