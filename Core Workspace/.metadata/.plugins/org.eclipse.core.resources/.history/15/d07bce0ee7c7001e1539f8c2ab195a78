@@ -1,0 +1,18 @@
+package Practice;
+
+public class SanConstructorCall {
+	
+	public String CarName=null;
+	public String Model=null;
+	public String yop=null;
+	
+	public SanConstructorCall() {
+		System.out.println("Vehicle Details");
+	}
+	
+	
+	
+	
+	
+
+}

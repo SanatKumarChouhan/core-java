@@ -1,0 +1,14 @@
+package in.co.rays.overriding;
+
+public class Super {
+	
+	
+	public void area() {
+		
+		System.out.println("super area method");
+		
+		
+	}
+	
+
+}

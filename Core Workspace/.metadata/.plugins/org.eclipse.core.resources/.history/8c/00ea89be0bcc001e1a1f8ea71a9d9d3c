@@ -1,0 +1,10 @@
+package in.co.rays.checked;
+
+public class LoginExceptionn extends Exception {
+	
+	public LoginException() {
+		
+		super("user invalid");
+	}
+
+}

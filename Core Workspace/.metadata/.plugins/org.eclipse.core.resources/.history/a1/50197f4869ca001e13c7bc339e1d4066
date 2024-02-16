@@ -1,0 +1,14 @@
+package Practice;
+
+public class TypeCasting {
+	
+	public static void main(String[] args) {
+		
+		
+		byte b=5;
+		double d=b;
+		
+		System.out.println(d);
+	}
+
+}

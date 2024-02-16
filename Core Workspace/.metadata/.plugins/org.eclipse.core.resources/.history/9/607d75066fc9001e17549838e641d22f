@@ -1,0 +1,32 @@
+package in.co.rays.abs;
+
+public class Buisnessmen implements Richmen,SocialWorker {
+
+	@Override
+	public void helpToOther() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void earn() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void donation() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void party() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+
+}

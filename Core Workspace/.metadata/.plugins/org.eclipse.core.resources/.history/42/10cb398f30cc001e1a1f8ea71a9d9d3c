@@ -1,0 +1,16 @@
+package Practice;
+
+public class DevidebyZero {
+	
+	public static void main(String[] args) {
+		
+		int a=100;
+		int b=00;
+		
+		int devide=a/b;
+		
+		System.out.println(devide);
+		
+	}
+
+}

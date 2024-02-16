@@ -1,0 +1,21 @@
+package Practice;
+
+public class TestPradeep {
+
+	public static void main(String[] args) {
+		
+		Pradeep p=new Pradeep();
+		
+		p.firstname="Pradeep";
+		p.middlename="Kumar";
+		p.lastname="Chouhan";
+		
+		p.dob=121278;
+		p.accno=123456789;
+		p.height=6.7;
+		
+	}
+	
+	
+	
+}

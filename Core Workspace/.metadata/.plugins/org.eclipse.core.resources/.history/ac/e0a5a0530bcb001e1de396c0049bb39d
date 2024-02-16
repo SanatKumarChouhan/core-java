@@ -1,0 +1,10 @@
+package in.co.rays.Exception;
+
+public class TestException {
+	
+	public static void main(String[] args) {
+		
+		
+	}
+
+}

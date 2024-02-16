@@ -1,0 +1,22 @@
+package in.co.rays.inheritance;
+
+public class Shape {
+	
+	
+	private String Color;
+	
+	private int borderwidth;
+	
+	
+	
+	public void setColor(String color) {
+		
+		this.Color=color;
+		
+		
+	}
+	
+	public 
+	
+
+}

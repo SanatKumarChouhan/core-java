@@ -1,0 +1,17 @@
+package in.co.rays.basic;
+
+public class TypeCasting {
+	
+	//byte-short-char-int-long-float-double
+	
+	public static void main(String[] args) {
+		
+		int a=1234567890;
+		long b=9179118642L;
+		
+		float f=11.11f;
+		
+		System.out.println(f);
+	}
+
+}

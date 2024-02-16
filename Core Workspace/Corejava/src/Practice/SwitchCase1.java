@@ -1,0 +1,28 @@
+package Practice;
+
+public class SwitchCase1 {
+	
+	public static void main(String[] args) {
+		
+		String Name="riya";
+		
+		switch (Name) {
+		case "riya":
+			System.out.println("9827335121");
+			break;
+			
+		case "prakhar":
+			System.out.println("9179118642");
+			break;
+			
+		case "sameer":
+			System.out.println("9171437285");
+			break;
+			
+			default:
+				System.out.println("invalid input OR not found");
+				
+		}
+	}
+
+}

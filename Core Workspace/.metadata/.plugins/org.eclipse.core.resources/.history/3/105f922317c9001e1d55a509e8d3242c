@@ -1,0 +1,15 @@
+package Practice;
+
+public class Pradeep {
+	//by reference variable
+	
+	public String firstname;
+	public String middlename;
+	public String lastname;
+	
+	public int dob;
+	public int accno;
+	public double height;
+	
+
+}

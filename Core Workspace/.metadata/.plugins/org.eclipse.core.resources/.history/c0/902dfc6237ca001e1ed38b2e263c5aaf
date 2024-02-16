@@ -1,0 +1,8 @@
+package in.co.rays.overriding;
+
+public class Circle extends Shape {
+	
+	private int radius;
+	
+
+}

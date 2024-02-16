@@ -1,0 +1,12 @@
+package Practice;
+
+public abstract class AShape {
+	
+	public abstract void area();
+	
+	public void sum() {
+		System.out.println("sum are methods");
+	}
+	
+
+}

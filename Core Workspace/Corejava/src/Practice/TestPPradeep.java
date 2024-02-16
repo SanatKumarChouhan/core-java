@@ -1,0 +1,40 @@
+package Practice;
+
+public class TestPPradeep {
+
+	public static void main(String[] args) {
+		
+		PPradeep p=new PPradeep();
+		
+		p.eat();
+		p.run();
+		p.sum(10, 20);
+		p.PrimeNumber(35);
+		p.whoisgreather(10, 12);
+		
+		
+	
+		
+		
+	
+		
+//		p.firstname="Pradeep";
+//		p.middlename="Kumar";
+//		p.lastname="Chouhan";
+//		
+//		p.dob=121278;
+//		p.accno=123456789;
+//		p.height=6.7;
+//		
+//		System.out.println(p.firstname);
+//		System.out.println(p.middlename);
+//		System.out.println(p.lastname);
+//		
+//		System.out.println(p.dob);
+//		System.out.println(p.accno);
+//		System.out.println(p.height);
+	}
+	
+	
+	
+}

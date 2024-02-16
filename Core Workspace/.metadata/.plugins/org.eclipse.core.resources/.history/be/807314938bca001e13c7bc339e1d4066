@@ -1,0 +1,33 @@
+package Practice;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+
+//import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class TestDate {
+	
+	public static void main(String[] args) throws ParseException {
+		
+		// Print Today's Date and Time.
+		Date d=new Date();
+		System.out.println(d);
+		
+		// Print Today's Date in String form.
+		
+		SimpleDateFormat sdf=new SimpleDateFormat("dd/MM/yyyy");
+		String s=sdf.format(d);
+		System.out.println(s);
+		
+		// Print any choosed String date convert in word form.
+		
+		String s1="12/12/1996";
+		SimpleDateFormat sdf1=new SimpleDateFormat("dd/MM/yyyy");
+		Date d1=sdf1.parse(s);
+		
+		System.out.println(d1);
+		
+	}
+
+}

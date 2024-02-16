@@ -1,0 +1,20 @@
+package in.co.rays.contructor;
+
+public class TestConstructorcall {
+	
+	public static void main(String[] args) {
+		
+		Constructorcall c=new Constructorcall();
+		
+		Constructorcall c1=new Constructorcall("sanat","chouhan");
+		
+		System.out.println(c1.name+" "+c1.lastname);
+		
+		
+		
+		
+	}
+	
+	
+
+}

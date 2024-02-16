@@ -1,0 +1,49 @@
+package in.co.rays.contructor;
+
+public  class Constructorcall {
+	
+	
+	
+	public String name=null;
+	public String lastname=null;
+	public String address=null;
+	
+	
+	
+	public Constructorcall() {
+		System.out.println("default contructor");
+		
+		
+	}
+	
+	
+	public Constructorcall(String name,String lastname) {
+		
+	    this.name=name;
+	    this.lastname=lastname;
+	    
+	    System.out.println("two perameter contructor");
+		
+	}
+	
+	public Constructorcall(String name,String lastname,String address) {
+		
+		this.name=name;
+		this.lastname=lastname;
+		this.address=address;
+		
+	}
+	public void displayDatails(){
+
+		
+		System.out.println(this.name+" "+this.lastname+" "+this.address);
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

@@ -1,0 +1,34 @@
+package in.co.rays.abs;
+
+public class Buisnessmen implements Richman,SocialWorker {
+
+	@Override
+	public void helpToOther() {
+		
+		System.out.println("helping");
+		
+		
+	}
+
+	@Override
+	public void earn() {
+	  System.out.println("earn money");
+		
+	}
+
+	@Override
+	public void donation() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void party() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+	
+
+}

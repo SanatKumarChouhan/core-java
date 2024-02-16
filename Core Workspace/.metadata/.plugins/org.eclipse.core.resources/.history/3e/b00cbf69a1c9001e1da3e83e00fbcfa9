@@ -1,0 +1,28 @@
+package Practice;
+
+public class SwitchCase1 {
+	
+	public static void main(String[] args) {
+		
+		String Month="sameer";
+		
+		switch (Month) {
+		case "january":
+			System.out.println("this is the 1st month of the year");
+			break;
+			
+		case "faburary":
+			System.out.println("this is the 2nd month of the year");
+			break;
+			
+		case "march":
+			System.out.println("this is the 3rd month of the year");
+			break;
+			
+			default:
+				System.out.println("invalid input OR not found");
+				
+		}
+	}
+
+}

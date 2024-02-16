@@ -1,0 +1,40 @@
+package Practice;
+
+public class SanConstructorCall {
+	
+	public String CarName;
+	public String Model;
+	public int yop;
+	public int yos;
+	
+	public SanConstructorCall() {
+		System.out.println("Vehicle Details");
+	}
+	
+	public SanConstructorCall(String carname, String model, int year) {
+		
+		this.CarName=carname;
+		this.Model=model;
+		this.yop=year;
+		
+//		System.out.println("Name = "+CarName);
+//		System.out.println("Model = "+Model);
+//		System.out.println("year = "+yop);
+		
+	}
+	
+	public SanConstructorCall(String name, String modell) {
+		this.CarName=name;
+		this.Model=modell;
+		this.yop=yos;
+		
+		
+	}
+	
+	
+	
+	
+	
+	
+
+}

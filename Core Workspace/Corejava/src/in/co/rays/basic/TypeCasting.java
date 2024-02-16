@@ -1,0 +1,58 @@
+package in.co.rays.basic;
+
+public class TypeCasting {
+	
+	//byte-short-char-int-long-float-double
+	
+	public static void main(String[] args) {
+
+		byte b=10;
+		double d=b;
+		
+		System.out.println("byte = "+b);
+		System.out.println("byte to double = "+d);
+		System.out.println();
+		
+		
+		double d1=5.5;
+		byte   b1=(byte)d1;
+		
+		System.out.println("double = "+d1);
+		System.out.println("double to byte = "+b1);
+		System.out.println();
+		
+		
+		float f=13;
+		int   i=(int)f;
+		
+		System.out.println("float = "+f);
+		System.out.println("float to int = "+i);
+		System.out.println();
+		
+		short s=23;
+		float f1=s;
+		
+		System.out.println("short = "+s);
+		System.out.println("short to float = "+f1);
+		System.out.println();
+		
+		
+		float f2=34f;
+		short s1=(short)f2;
+		
+		System.out.println("float = "+f2);
+		System.out.println("float to short = "+s1);
+		System.out.println();
+		
+		
+		long l=214748364700L;
+		int  i2=(int)l;
+		
+		System.out.println("long = "+l);
+		System.out.println("lont to int = "+i2);
+		System.out.println();
+		
+		
+	}
+
+}

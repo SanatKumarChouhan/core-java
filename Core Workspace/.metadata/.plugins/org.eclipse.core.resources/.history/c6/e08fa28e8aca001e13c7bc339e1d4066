@@ -1,0 +1,15 @@
+package Practice;
+
+import java.util.Date;
+
+public class TestDate {
+	
+	public static void main(String[] args) {
+		
+		// Print todat's date.
+		Date d=new Date();
+		System.out.println(d);
+		
+	}
+
+}

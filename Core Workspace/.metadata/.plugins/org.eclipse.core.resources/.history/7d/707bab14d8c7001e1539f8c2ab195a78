@@ -1,0 +1,14 @@
+package in.co.rays.contructor;
+
+public class Constructcall {
+	
+	
+	public Contructcall() {
+		System.out.println("default contructor");
+	}
+	
+	
+	
+	
+
+}

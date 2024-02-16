@@ -1,0 +1,11 @@
+package Practice;
+
+public class TestSanConstructorCall {
+	
+	public static void main(String[] args) {
+		
+		SanConstructorCall sc=new SanConstructorCall();
+		
+	}
+
+}

@@ -1,0 +1,16 @@
+package in.co.rays.contructor;
+
+public class TestConstructorcall {
+	
+	public static void main(String[] args) {
+		
+		Constructorcall c=new Constructorcall();
+		
+		
+		
+		
+	}
+	
+	
+
+}

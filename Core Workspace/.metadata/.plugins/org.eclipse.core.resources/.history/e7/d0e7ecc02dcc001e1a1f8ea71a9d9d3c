@@ -1,0 +1,24 @@
+package Practice;
+
+public class E2exception {
+	
+	public static void main(String[] args) {
+		
+		try {
+			
+			String name="Shubham Shandilya";
+			
+			System.out.println(name.length());
+			System.out.println(name.charAt(10));
+			System.out.println(name.indexOf("Shan"));
+			System.out.println(name.indexOf(0));
+			
+			
+		}catch (Exception e) {
+			
+		}
+		
+		
+	}
+
+}

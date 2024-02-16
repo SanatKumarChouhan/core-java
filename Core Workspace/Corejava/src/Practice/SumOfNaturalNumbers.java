@@ -1,0 +1,28 @@
+package Practice;
+
+public class SumOfNaturalNumbers {
+	
+	public static void main(String[] args) {
+		
+		int n=10;
+		int sum=0;
+		
+		for (int i=1; i<=n; i=i+1) {
+			
+			System.out.println(i);
+			sum=sum+i;
+			//System.out.println(sum);
+			
+		}
+		System.out.println(sum);
+		
+		int sum1=1;
+		for (int y=1; y<=5; y=y+1) {
+			
+			sum1=sum1*y;	
+		}
+		System.out.println(sum1);
+		
+	}
+
+}

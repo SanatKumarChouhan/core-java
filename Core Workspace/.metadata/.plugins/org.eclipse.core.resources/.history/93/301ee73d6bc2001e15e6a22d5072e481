@@ -1,0 +1,16 @@
+package in.co.rays.basic;
+
+public class AinvayiStringMethod {
+	
+	public static void main(String[] args) {
+		
+		String name="mission is to train";
+		
+		//System.out.println(name.length());
+		
+		System.out.println(name.charAt(5));
+		
+		
+	}
+
+}

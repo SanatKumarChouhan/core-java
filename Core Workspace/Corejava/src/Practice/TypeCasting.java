@@ -1,0 +1,50 @@
+package Practice;
+
+public class TypeCasting {
+	
+	public static void main(String[] args) {
+		
+		
+		byte b=5;
+		double d=(double)b;
+		
+		System.out.println("byte = "+b);
+		System.out.println("byte to double = "+d);
+		System.out.println();
+		
+		
+		double d1=5.5;
+		byte b1=(byte) d1;
+		
+		System.out.println("double = "+d1);
+		System.out.println("double to byte = "+b1);
+		System.out.println();
+		
+		
+		float q=11;
+		int   w=(int)q;
+		
+		System.out.println("float = "+q);
+		System.out.println("float to int = "+w);
+		System.out.println();
+		
+		
+		float f=2;
+		
+		System.out. println(f);
+		
+		short s=30;
+		float t=(float)s;
+		
+		System.out.println("short = "+s);
+		System.out.println("short to float = "+t);
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

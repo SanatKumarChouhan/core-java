@@ -1,0 +1,19 @@
+package Practice;
+
+public class ATestShape {
+	
+	public static void main(String[] args) {
+		
+		ARactangle as=new ARactangle();
+		
+		as.setLength(10);
+		as.setWidth(20);
+		
+		System.out.println("Lenght"+as.getLength());
+		System.out.println("Width"+as.getWidth());
+		
+		as.area();
+		
+	}
+
+}

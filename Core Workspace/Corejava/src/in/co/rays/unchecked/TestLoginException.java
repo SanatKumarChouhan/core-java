@@ -1,0 +1,22 @@
+package in.co.rays.unchecked;
+
+public class TestLoginException {
+	
+	public static void main(String[] args) {
+		
+		String name="Rahul Chouha";
+		
+		if (name.equals("Rahul Chouhan")) {
+			
+			System.out.println("user valid");
+	
+		}else {
+			LoginException l=new LoginException();
+			
+			System.out.println(l);
+			System.out.println(l.getMessage());
+			
+			
+		}
+}
+}

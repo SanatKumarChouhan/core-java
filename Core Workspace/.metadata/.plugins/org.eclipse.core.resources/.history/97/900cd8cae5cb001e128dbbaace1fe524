@@ -1,0 +1,15 @@
+package in.co.rays.oop;
+
+public class Account {
+	
+	
+	private int id;
+	
+	private String firstname;
+	
+	private String lastname;
+
+	private String address;
+
+		
+}

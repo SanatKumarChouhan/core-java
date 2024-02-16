@@ -1,0 +1,20 @@
+package in.co.rays.basic;
+
+public class StringBufferMethod {
+	
+	public static void main(String[] args) {
+		
+		StringBuffer sb=new StringBuffer("Vijay");
+		sb.append("Dinanath Chouhanoooo");
+		
+		System.out.println(sb.length());
+		
+		System.out.println(sb.capacity());
+		
+		
+		
+		
+		
+	}
+
+}

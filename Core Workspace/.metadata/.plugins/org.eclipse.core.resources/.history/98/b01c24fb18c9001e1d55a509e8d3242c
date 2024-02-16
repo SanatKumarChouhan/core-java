@@ -1,0 +1,32 @@
+package in.co.rays.basic;
+
+public class DivisibleBy7 {
+	
+	public static void main(String[] args) {
+		
+		int a=7;
+		
+		//int count=0;
+		int sum=0;
+		
+		
+		for (int i = 100; i <=200; i++) {
+			
+			if (i%a==0) {
+				
+				
+				int count = i;
+				System.out.println(count);
+		       sum=sum+i;
+		       System.out.println("sum= "+sum);
+		       
+			}
+			
+		}
+		//System.out.println("sum= "+sum);
+		
+	}
+	
+	
+
+}

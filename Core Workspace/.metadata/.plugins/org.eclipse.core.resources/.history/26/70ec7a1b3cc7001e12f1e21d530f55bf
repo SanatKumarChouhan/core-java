@@ -1,0 +1,21 @@
+package Practice;
+
+public class HTestShape {
+	
+	public static void main(String[] args) {
+		
+	
+	
+	HCircle c=new HCircle();
+	
+	c.setRadius(23);
+	c.cArea();
+	
+	
+	
+	
+	
+	
+	
+
+}

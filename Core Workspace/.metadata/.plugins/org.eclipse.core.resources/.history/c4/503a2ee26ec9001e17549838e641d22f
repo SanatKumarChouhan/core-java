@@ -1,0 +1,8 @@
+package in.co.rays.abs;
+
+public class Buisnessmen implements Richman,SocialWorker {
+	
+	
+	
+
+}

@@ -1,0 +1,20 @@
+package Practice;
+
+public class ATestShape {
+	
+	public static void main(String[] args) {
+		
+		ARactangle r=new ARactangle();
+		
+		r.setLength(12);
+		r.setWidth(13);
+		
+		System.out.println(r.getLength());
+		System.out.println(r.getWidth());
+		
+		r.area();
+		
+		r.sum();
+	}
+
+}

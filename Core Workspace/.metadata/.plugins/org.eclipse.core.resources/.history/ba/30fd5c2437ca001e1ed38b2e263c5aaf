@@ -1,0 +1,13 @@
+package in.co.rays.overriding;
+
+public class Shape {
+	
+	private String color;
+	
+	private int borderwidth;
+	
+	
+	
+	
+
+}
