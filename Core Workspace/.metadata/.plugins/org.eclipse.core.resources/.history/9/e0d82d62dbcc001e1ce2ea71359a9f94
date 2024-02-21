@@ -1,0 +1,64 @@
+package in.co.rays.collection;
+
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class TestCollectionOne {
+	
+	public static void main(String[] args) {
+		
+		List list=new ArrayList();
+		
+		
+		
+		list.add("First Name: "+"Rahul");
+		list.add("Last Name: "+"Chouhan");
+		
+		list.add("Father Name: "+"Hemant Chouhan");
+		list.add("Roll no. "+ 43526454);		
+		
+		list.add("marks obtained: "+430);
+		
+		list.add("Result: "+"pass");
+		
+		list.add(3.12);
+		
+		//iske andar arthmetic problem solve ka result double me nahi ayega
+		// 
+		//list.add(429/500);
+		
+		System.out.println(list);
+		
+		System.out.println();
+		//achieved by for loop
+		
+//		for (int i=0; i < list.size(); i++) {
+//			
+//			System.out.println(list.get(i));
+//		}
+		
+		//achieved by for each loop
+		
+//		for(Object object : list ) {
+//			
+//			System.out.println(object);
+//			
+//		}
+		
+		//achieved by while loop use iterator import
+		
+		Iterator it=list.iterator();
+		
+		while (it.hasNext()) {
+			System.out.println(it.next());
+			//it.remove();
+		}
+		
+		System.out.println(list);
+	
+		
+	
+	}
+
+}

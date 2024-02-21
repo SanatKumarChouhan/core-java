@@ -1,0 +1,30 @@
+package in.co.rays.collection;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestCollectionOne {
+	
+	public static void main(String[] args) {
+		
+		List list=new ArrayList();
+		
+		
+		
+		list.add("First Name "+"Rahul");
+		list.add("Last Name "+"Chouhan");
+		
+		list.add("Father Name "+"Hemant Chouhan");
+		list.add("Roll no. "+ 43526454);		
+		
+		list.add("marks obtained "+430/500);
+		
+		list.add("Result "+"pass");
+		
+		System.out.println(list);
+	
+		
+	
+	}
+
+}

@@ -1,0 +1,18 @@
+package in.co.rays.collection;
+
+public class TestEmployee {
+	
+	public static void main(String[] args) {
+		
+		Employee e1=new Employee(1,"sameer", 577);
+		
+		System.out.println(e1);
+	
+	
+	
+	
+	
+	}
+	
+
+}

@@ -1,0 +1,27 @@
+package in.co.rays.collection;
+
+import java.util.HashMap;
+import java.util.Map;
+
+public class TestMapCollection {
+	
+	public static void main(String[] args) {
+		
+		Map map=new HashMap();
+		
+		map.put(1, "shanu");
+		
+		map.put(2, "     bittu");
+		
+		map.put(3, "sachin");
+		
+		map.put(4, "sonu");
+		
+		System.out.println(map);
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,11 @@
+package in.co.rays.IO;
+
+public class WriteByFile {
+	
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

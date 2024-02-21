@@ -1,0 +1,17 @@
+package in.co.rays.stream;
+
+public class Contestent {
+	
+	
+		
+		String name;
+		String phone;
+		
+		public Contestent(String name, String phone);{
+		this.name=name;
+		this.phone=phone;
+		
+		}
+	}
+
+

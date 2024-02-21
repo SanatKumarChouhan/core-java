@@ -1,0 +1,55 @@
+package in.co.rays.collection;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+
+public class TestMapCollection {
+	
+	public static void main(String[] args) {
+		
+		
+		
+		Map map=new HashMap();
+		
+		map.put(1, 11);
+		map.put(2, 12);
+		map.put(3, 13);
+		map.put(4, 14);
+		map.put(5, 15.15);
+		map.put(6, 16.16);
+		
+		
+		
+		System.out.println(map);
+		
+		Iterator it=((Object) map).iterator();
+		}
+		
+		
+//		Map map=new HashMap();
+//		
+//		map.put(1, "shanu");
+//		
+//		map.put(2, "bittu");
+//		
+//		map.put(3, "sachin");
+//		
+//		map.put(4, "sonu");
+//		
+//		System.out.println(map);
+//		
+//		map.replace(1, "monu");
+//		
+//		System.out.println(map);
+//		
+//		map.remove(2);
+//		System.out.println(map);
+		
+		
+		
+		
+		
+	}
+
+}

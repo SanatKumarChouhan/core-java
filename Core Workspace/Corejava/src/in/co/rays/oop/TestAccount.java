@@ -10,7 +10,9 @@ public class TestAccount {
 		
 		a.setFirstname("sanat");
 		a.setLastname("chouhan");
+		String name= "sanat";
 		
+			
 		a.setAddress("indore");
 		
 		a.setId(12);

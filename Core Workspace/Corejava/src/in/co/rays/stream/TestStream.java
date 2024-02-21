@@ -1,0 +1,26 @@
+package in.co.rays.stream;
+
+import java.util.Arrays;
+import java.util.List;
+import java.util.stream.Stream;
+
+public class TestStream {
+	
+	public static void main(String[] args) {
+		 
+		List<String> list = Arrays.asList("one","two","three","four","five");
+		
+		Stream<String> strm = list.stream();
+		
+		strm.map(e->e.toUpperCase()).filter(e->e.endsWith("E")).sorted().distinct().forEach(e->{
+			
+			System.out.println(e);
+		});
+		
+		
+		
+	}
+	
+	
+
+}

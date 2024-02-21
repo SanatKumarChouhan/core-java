@@ -1,0 +1,31 @@
+package in.co.rays.collection;
+
+import java.util.Vector;
+
+public class TestEnumeration {
+	
+	public static void main(String[] args) {
+		
+		Vector v=new Vector();
+		
+		v.add("table");
+		v.add("chair");
+		v.add("bad");
+		v.add("table lamp");
+		v.add(9179118642L);
+		v.add(23.32);
+		
+		System.out.println(v);
+		
+		//for each
+		
+		for (Object object:v) {
+			System.out.println(object);
+		}
+		
+		
+		
+		
+	}
+
+}
