@@ -1,0 +1,16 @@
+package in.co.rays.IO;
+
+public class ReadDateLine {
+	
+	public static void main(String[] args) {
+		
+		try {
+			
+			FileReader file=new FileReader();
+			
+		} catch (Exception e) {
+			// TODO: handle exception
+		}
+	}
+
+}
