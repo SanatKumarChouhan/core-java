@@ -1,0 +1,11 @@
+package in.co.rays.thread;
+
+public class WithThread extends Thread{
+	
+	String name=null;
+	
+	
+	
+	
+
+}

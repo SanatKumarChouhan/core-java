@@ -1,0 +1,13 @@
+package Practice;
+
+public class TestWithoutThread {
+	
+	public static void main(String[] args) {
+		
+		WithoutThread t1=new WithoutThread("prakhar");
+		
+		t1.run();
+		
+	}
+
+}

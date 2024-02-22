@@ -1,0 +1,28 @@
+package in.co.rays.IO;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+public class ReadByKeyBoard {
+
+	public static void main(String[] args) throws IOException {
+		
+		InputStreamReader inreader=new InputStreamReader(System.in);
+		
+		
+		BufferedReader bw=new BufferedReader(inreader);
+		
+		
+		String line=bw.readLine();
+		
+		
+		while(!line.equals("sanat")) {
+			
+			line=bw.readLine()
+			
+		}
+
+	}
+
+}

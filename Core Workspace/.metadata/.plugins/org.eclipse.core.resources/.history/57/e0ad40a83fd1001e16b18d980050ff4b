@@ -1,0 +1,35 @@
+package in.co.rays.comparator;
+
+import java.util.List;
+import java.util.ArrayList;
+
+public class TestMarksheet {
+	
+	public static void main(String[] args) {
+		
+		List list=new ArrayList();
+		
+		list.add(new Marksheet ("prakhar", 1, 45));
+		list.add(new Marksheet ("shanu", 4, 43));
+		list.add(new Marksheet ("shubham", 2,84));
+		list.add(new Marksheet ("bittu",5,32));
+		list.add(new Marksheet ("aman",8,83));
+		list.add(new Marksheet ("riya",6,38));
+		list.add(new Marksheet ("babita",9,74));
+		list.add(new Marksheet ("chetan", 3, 93));
+		list.add(new Marksheet ("damandeep",7,85));
+		list.add(new Marksheet ("ehsaan",10,91));
+		list.add(new Marksheet ("zeeshaan",9,84));
+		
+		System.out.println(list);
+		
+		//for each loop.
+		
+		for (Object obj:list) {
+			
+			System.out.println(obj);
+		}
+		
+	}
+
+}
