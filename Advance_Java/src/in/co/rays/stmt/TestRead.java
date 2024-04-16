@@ -15,11 +15,17 @@ public class TestRead {
 		
 		Statement stmt = conn.createStatement();
 		
-		String sql = "select * from student";
+//		String sql = "select * from student where marks = (select max(marks) from student where marks < (select max(marks) from student))";
+		
+		String sql = "select 8 from  ";
 		
 		ResultSet rs = stmt.executeQuery(sql);
 		
 		while(rs.next()) {
+			
+			System.out.print("\t"+rs.getInt(1));
+			System.out.print("\t"+rs.getString(2));
+			System.out.println("\t"+rs.getInt(3));
 			
 			System.out.print("\t"+rs.getInt(1));
 			System.out.print("\t"+rs.getString(2));
