@@ -33,6 +33,10 @@ public class WithThread extends Thread {
 			
 			System.out.println(i+" "+name+" "+id+" "+marks);
 		}
+		
+       int add=id+marks;
+		
+		System.out.println("sum"+add);
 	}
 	
 

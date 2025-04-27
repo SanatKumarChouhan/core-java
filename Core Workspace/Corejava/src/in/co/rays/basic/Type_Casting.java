@@ -31,10 +31,10 @@ public class Type_Casting {
 		
 		// System.out.print(a);
 		
-		long a=8;
-		int b=(int)a;
+		long a1=8;
+		int b1=(int)a1;
 		
-		System.out.println(b);
+		System.out.println(b1);
 		
 		
 		

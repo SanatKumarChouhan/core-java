@@ -8,13 +8,15 @@ public class TestWithThread {
 		
 		WithThread t2=new WithThread("bittu", 3, 56);
 		
-//		t1.start();
-//		
-//		t2.start();
+		t1.start();
 		
-		t1.run();
+		t2.start();
 		
-		t2.run();
+		
+		
+		//t1.run();
+		
+		//t2.run();
 		
 		
 	}

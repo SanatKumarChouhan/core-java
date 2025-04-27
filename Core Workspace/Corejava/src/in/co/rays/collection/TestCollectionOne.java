@@ -30,7 +30,7 @@ public class TestCollectionOne {
 		
 		System.out.println(list);
 		
-		System.out.println();
+		System.out.println(list.size());
 		//achieved by for loop
 		
 //		for (int i=0; i < list.size(); i++) {
@@ -49,14 +49,14 @@ public class TestCollectionOne {
 		//achieved by while loop use iterator import
 		
 		Iterator it=list.iterator();
-		
+//		
 		while (it.hasNext()) {
 			
 			System.out.println(it.next());
 			it.remove();
 		}
 		
-		//System.out.println(list);
+		System.out.println(list);
 	
 		
 	

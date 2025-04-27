@@ -8,7 +8,7 @@ public class ReadDateLine {
 		
 		try {
 			
-			FileReader file=new FileReader("C:\\Users\\Asus\\Desktop\\IO\\san.txt");
+			FileReader file=new FileReader("C:\\Users\\Asus\\Desktop\\IO\\rrr.txt");
 			
 			int ch=file.read();
 		

@@ -15,6 +15,16 @@ public class Switchcase1 {
 		case "fabuary":
 			
 			System.out.println("this is second month of year");
+			break;
+			
+		case "march":
+			
+			System.out.println("this is third month of the year");
+			break;
+			
+		default:
+			System.out.println("input not found");
+			break;
 			
 
 

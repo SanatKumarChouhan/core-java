@@ -17,7 +17,7 @@ public class Java_Lang_Math_Class {
 		System.out.println(name.length());
 		System.out.println(surname.length());
 		
-		String.length()
+//		String.length()
 
 		System.out.println(Math.max(2, 5));
 		

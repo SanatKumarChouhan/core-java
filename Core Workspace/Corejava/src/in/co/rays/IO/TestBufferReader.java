@@ -9,7 +9,7 @@ public class TestBufferReader {
 	
 	public static void main(String[] args) throws IOException {
 		
-		FileReader file=new FileReader("C:\\Users\\Asus\\Desktop\\IO\\package in.co.rays.IO;.txt");
+		FileReader file=new FileReader("C:\\Users\\Asus\\Desktop\\IO\\package in.co.rays.IO.txt");
 		 
 		BufferedReader out=new BufferedReader(file);
 		

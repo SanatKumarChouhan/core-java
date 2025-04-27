@@ -3,38 +3,33 @@ package in.co.rays.collection;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
+import java.util.Set;
 
 public class TestMapCollection {
-	
+
 	public static void main(String[] args) {
-		
-		
-		
-		Map map=new HashMap();
-		
+
+		Map<Integer, Object> map = new HashMap<>();
+
 		map.put(1, 11);
 		map.put(2, 12);
 		map.put(3, 13);
 		map.put(4, 14);
 		map.put(5, 15.15);
 		map.put(6, 16.16);
-		
-		
-		
+
 		System.out.println(map);
-		
-		
-		for (Object object:map) {
-			System.out.println(object);
+
+		for (Map.Entry<Integer, Object> entry : map.entrySet()) {
+			System.out.println("Key: " + entry.getKey() + ", Value: " + entry.getValue());
 		}
-		
-//		Iterator it=map.iterator();
+
+		Set<Integer> keys =  map.keySet();
 //		
-//		while(it.hasNext()) {
-//			System.out.println(it.next());
-//		
-//		}
-		
+		for (Integer key : keys) {
+		    System.out.println("Key: " + key);
+		}
+
 		
 //		Map map=new HashMap();
 //		
@@ -54,11 +49,7 @@ public class TestMapCollection {
 //		
 //		map.remove(2);
 //		System.out.println(map);
-		
-		
-		
-		
-		
+
 	}
 
 }

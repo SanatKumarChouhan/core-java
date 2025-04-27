@@ -9,7 +9,7 @@ public class ReaByFile {
 	
 	public static void main(String[] args) throws IOException {
 		
-		FileReader fr=new FileReader("C:\\Users\\Asus\\Desktop\\IO\\san.txt");
+		FileReader fr=new FileReader("C:\\Users\\Asus\\Desktop\\IO\\rrr.txt");
 		
 		Scanner sc=new Scanner(fr);
 		
